@@ -47,3 +47,5 @@ The dataset was refactored from a legacy dynamic SQL stored procedure into a sec
 - Applied filtering early in query execution
 - Added targeted non-clustered indexes for date and meal-type filtering
 
+## License
+This project is licensed under the MIT License.
