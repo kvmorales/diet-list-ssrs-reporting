@@ -21,13 +21,13 @@ The dataset was refactored from a legacy dynamic SQL stored procedure into a sec
 - Added optional nursing station filtering without dynamic query construction
 - Designed output for reuse in SSRS and BI tools
 
-Technologies Used
+## Technologies Used
 - SQL Server (T-SQL)
 - SQL Server Reporting Services (SSRS)
 - Relational Database Design
 - Healthcare Information Systems
 
-Key Report Fields
+## Key Report Fields
 - Nursing Station
 - Patient Name
 - Hospital Record Number (HRN)
@@ -40,9 +40,10 @@ Key Report Fields
 - Posted Date
 - Posted By
 
-Performance Optimisations
+## Performance Optimisations
 - Eliminated dynamic SQL to enable execution plan reuse
 - Replaced scalar UDFs with relational joins
 - Used strongly typed date parameters
 - Applied filtering early in query execution
 - Added targeted non-clustered indexes for date and meal-type filtering
+
